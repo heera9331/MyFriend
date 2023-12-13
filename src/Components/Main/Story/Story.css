@@ -1,0 +1,16 @@
+.story {
+  top: 0;
+  padding: 1rem 0;
+  overflow-x: scroll;
+  background-color: white;
+}
+
+.story-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.story-wrapper img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

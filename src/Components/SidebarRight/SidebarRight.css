@@ -1,0 +1,38 @@
+.sidebar-right {
+  margin: 1rem;
+  position: absolute;
+  background-color: red;
+  top: 0vh;
+  left: 80vw;
+  width: 25vw;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  padding: 1rem;
+  height: 50vh;
+}
+
+.profile {
+  /* background-color: red; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile .username {
+  padding: .5rem;
+  font-weight: bold;
+}
+
+.profile button {
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+}

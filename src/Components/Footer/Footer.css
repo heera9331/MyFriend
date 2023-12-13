@@ -1,0 +1,23 @@
+.footer {
+  position: absolute;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.footer-menu {
+  padding: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  word-wrap: normal;
+  text-align: center;
+
+}
+
+.footer .copyright {
+  margin-bottom: 2rem;
+}

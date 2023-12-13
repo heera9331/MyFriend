@@ -1,0 +1,39 @@
+.posts {
+  background-color: white;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 0.5rem 0;
+  background-color: white;
+  padding: 2rem;
+}
+
+.post-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 5fr;
+  align-items: center;
+  gap: 20px;
+  padding: 0.5rem 0;
+}
+
+.post .post-more {
+  font-weight: bold;
+  text-align: right;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.post-header .post-profile {
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 5px;
+}
+
+.post-body .post-img {
+  width: 100%;
+  /* border:   1px solid red; */
+  border-radius: 3px;
+}
