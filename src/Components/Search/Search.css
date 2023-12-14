@@ -1,0 +1,18 @@
+.search-form {
+  /* background-color: red; */
+}
+
+.search-form .input-group {
+  display: flex;
+  height: 2.5rem;
+  margin: .4rem;
+}
+
+.search-form .query {
+  display: block;
+  padding: 1rem .5rem; 
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+}

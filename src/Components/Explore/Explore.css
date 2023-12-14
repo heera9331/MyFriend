@@ -1,0 +1,14 @@
+.explore {
+  /* background-color: red; */
+  padding: 1rem 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: .5rem; 
+}
+
+.card img {
+  width: 100%;
+}

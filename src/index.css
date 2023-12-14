@@ -15,3 +15,11 @@ html {
   font-size: 20px;
   zoom: 90%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
